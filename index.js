@@ -1,5 +1,5 @@
-function greet(name) {
-  return `Hello, ${name}!`;
-}
+const operations = require("./math/operations");
 
-module.exports = greet;
+module.exports = {
+  operations,
+};
